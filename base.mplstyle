@@ -1,0 +1,46 @@
+patch.linewidth: 0.5
+patch.facecolor: 8cddcf  # blue
+patch.edgecolor: 3d4e5f
+patch.antialiased: True
+
+font.size: 10.0
+
+axes.facecolor: white
+axes.edgecolor: 3d4e5f
+axes.linewidth: 1
+axes.grid: True
+axes.grid.which     : major
+axes.titlesize: x-large
+axes.labelsize: large
+axes.labelcolor: 3d4e5f
+axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
+axes.spines.right   : False
+axes.spines.top     : False
+
+axes.prop_cycle: cycler('color', ['8cddcf', '4ab7ee', '1a78ee', 'eea9c5', 'ee7438'])
+
+xtick.color: 3d4e5f
+xtick.direction: out
+
+ytick.color: 3d4e5f
+ytick.direction: out
+
+grid.color: b1b8bf
+grid.linestyle: :
+grid.alpha       :   0.9     # transparency, between 0.0 and 1.0
+
+figure.facecolor: white
+figure.edgecolor: 0.50
+
+font.family         : monospace
+font.style          : normal
+font.variant        : normal
+font.weight         : normal
+font.stretch        : normal
+
+font.sans-serif: Studio Pro, Helvetica Neue, DejaVu Sans, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+font.monospace : iA Writer, Cousine, DejaVu Sans Mono, Andale Mono, Nimbus Mono L, Courier New, Courier, Fixed, Terminal, monospace
+
+text.color          : 3d4e5f
+
+
