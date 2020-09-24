@@ -6,7 +6,7 @@ from setuptools import find_packages
 
 
 HERE = os.path.abspath(os.path.dirname(__file__))
-PATH_VERSION = os.path.join(HERE, 'style', '__version__.py')
+PATH_VERSION = os.path.join(HERE, 'destijl', '__version__.py')
 
 
 about = {}
@@ -19,7 +19,7 @@ setup(
     description=about['__description__'],
     packages=find_packages(
         include=[
-            'style',
+            'destijl',
         ],
     ),
     install_requires=[
