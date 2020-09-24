@@ -22,6 +22,7 @@ setup(
             'destijl',
         ],
     ),
+    package_data={'': ['*.mplstyle']},
     install_requires=[
         'matplotlib>=3.3.2',
     ],
