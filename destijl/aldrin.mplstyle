@@ -1,0 +1,67 @@
+patch.linewidth: 0.5
+patch.facecolor: 8cddcf  # blue
+patch.edgecolor: 3d4e5f
+patch.antialiased: True
+patch.edgecolor: white
+
+
+# Set black background default line colors to white.
+
+lines.color: white
+text.color: white
+
+axes.grid: True
+axes.facecolor: black
+axes.edgecolor: white
+axes.linewidth: 1
+axes.labelcolor: white
+axes.grid.which     : major
+axes.titlesize: xx-large
+axes.labelsize: xx-large
+axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
+axes.spines.right   : False
+axes.spines.top     : False
+axes.prop_cycle: cycler('color', ['0b3d91', 'c62d1f', '105bd8', 'ffffff', 'dd361c', '02bfe7'])
+
+xtick.color: white
+ytick.color: white
+
+grid.color: white
+
+figure.facecolor: black
+figure.edgecolor: black
+
+savefig.facecolor: black
+savefig.edgecolor: black
+
+### Boxplots
+boxplot.boxprops.color: white
+boxplot.capprops.color: white
+boxplot.flierprops.color: white
+boxplot.flierprops.markeredgecolor: white
+boxplot.whiskerprops.color: white
+
+xtick.color: white
+xtick.direction: out
+
+ytick.color: white
+ytick.direction: out
+
+grid.color: white
+grid.linestyle: :
+grid.alpha       :   0.9     # transparency, between 0.0 and 1.0
+
+font.family         : sans-serif
+font.style          : normal
+font.variant        : normal
+font.weight         : bold
+font.stretch        : normal
+font.size: 12.0
+
+
+font.sans-serif: Futura, Jost, Helvetica,  Arial, Studio Pro, Helvetica Neue, DejaVu Sans, Lucida Grande, Verdana, Geneva, Lucid, Avant Garde, sans-serif
+font.monospace : iA Writer, Cousine, DejaVu Sans Mono, Andale Mono, Nimbus Mono L, Courier New, Courier, Fixed, Terminal, monospace
+
+text.color          : white
+
+
